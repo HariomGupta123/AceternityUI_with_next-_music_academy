@@ -1,10 +1,15 @@
+import Image from "next/image";
+import Navbar from "./component/Navbar";
+import Herosection from "./component/herosection";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
+    <main className=" min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.0] ">
+     <h1 text-2xl text-center>error</h1>
 
-      </div>
+     <div className="mt-[100px]">
+     <Herosection />
+     </div>
     </main>
   );
 }
